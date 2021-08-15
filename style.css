@@ -1,0 +1,57 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background: #e1e1e1;
+}
+.header{
+  background: rgba(0, 0, 0, 0.9);
+  padding: 6px 24px;
+  margin: 0px;
+  text-align: left;
+  color: white;  
+  letter-spacing: 2px;
+  font: caption;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.menu{
+  position: sticky;
+  top: 0px;
+  background-color: black;
+  margin: 0px;
+  overflow: hidden;
+}
+.menu a{
+  font: "Arial";
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 24px;
+}
+.menu a:hover{
+  background: #A0522D;
+  color: black;
+}
+.image-container .image{
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  background-position: center;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.content{
+  padding: 0px 24px;
+  text-align: justify;
+  font-size: 20px;
+  color: black;
+}
